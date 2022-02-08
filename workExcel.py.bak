@@ -10,7 +10,7 @@ nomesCPF = nome_cpf['NOME']
 for i in range(len(nomePessoas)):
     for a in range(len(nomesCPF)):
         if nomePessoas.values[i] == nomesCPF.values[a]:
-            print(nome_cpf.values[a])
+            print(nome_cpf.values[i])
             break
         else:
             pass
